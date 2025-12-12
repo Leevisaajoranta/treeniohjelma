@@ -1,3 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffb30231;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background: rgb(76, 112, 63);
+    padding: 16px 0;
+}
+h1 {
+    margin: 0;
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+    padding: 12px 16px;
+    background-color: rgb(68, 49, 24);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
 .exercise-group label {
   display: flex;
   align-items: center;
@@ -11,4 +43,24 @@
 }
 .exercise-group label:hover {
   background: #e0e0e0;
+}
+
+#clear-all {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  background: #ff4444;
+  color: #ffffff;
+
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#clear-all:hover {
+  background: #ff0000;
 }
